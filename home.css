@@ -1,0 +1,91 @@
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-end;
+    width: 30%;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.content{
+    display:block;
+    align-items: center;
+
+}
+
+.hero-heading {
+    color: #0a0a0a; 
+    font-size: 3rem;
+    margin-bottom: 20px; 
+   }
+  .hero-button:hover {
+    background-color: #0056b3; 
+  }
+  .hero-button {
+    color: #fff; 
+    background-color: #007bff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem; 
+    border-radius: 15px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  .background-img{
+    background-image: url("https://th.bing.com/th/id/OIP.wp6cr9OiFewa-4-ElePt_QHaE6?w=500&h=332&rs=1&pid=ImgDetMain");
+     width: 100vw;
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: contain;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+
+  }
+  .restaurant-img{
+    width: 250px;
+    height: 225px;
+    margin-left: 90px;
+    margin-top: 25px;
+
+  }
+ .paragraph{
+  margin-top: 25px;
+ 
+ }
+ .heading{
+  margin-left: 200px;
+ }
+ form {
+text-align: center;
+  
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #a3c5eb;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+
+.contact-info p {
+  margin-bottom: 5px;
+}
